@@ -1,0 +1,587 @@
+/* start general rules */
+
+body {
+    font-family: "Open Sans", serif;
+
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*end general rules*/
+
+/* start header */
+
+header {
+    background: url(../images/bg-img-01.jpg) center center fixed;
+    height: 919px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-position: 37%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header .head-content {
+    color: #FFF;
+    margin-right: 86px;
+    margin-top: 105px;
+
+}
+
+header .head-content h2 {
+    font-size: 47px;
+    margin-bottom: 25px;
+    transition: all 1.5s ease-in-out;
+}
+
+header .head-content h2:hover {
+    animation: heading-shake 1s 1 ease-in-out;
+}
+
+@keyframes heading-shake {
+    0%,
+    100% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(20px)
+    }
+
+}
+
+header .head-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    width: 492px;
+}
+
+header .head-content button {
+    width: 190px;
+    height: 52px;
+    font-size: 25px;
+    border: 0;
+    color: #FFF;
+    background: #ce3d3d;
+    opacity: 0.6;
+    transition: all .5s ease-in-out;
+}
+
+header .head-content button:hover {
+    opacity: 1;
+}
+
+/* End header */
+
+/* start column */
+
+.column {
+    background: url(../images/bg-img-02.jpg) center center fixed;
+    background-size: cover;
+    min-height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column h2 {
+    font-size: 25px;
+}
+
+
+.column div {
+    background-color: #FFF;
+    min-height: 300px;
+    padding: 20px;
+    opacity: .9;
+    flex-basis: 305px;
+    margin: 15px;
+}
+
+.column div p {
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.column div button {
+    width: 190px;
+    height: 52px;
+    font-size: 25px;
+    border: 0;
+    color: #FFF;
+    background: #ce3d3d;
+    opacity: 0.6;
+    transition: all .4s ease-in-out;
+}
+
+.column div button:hover {
+    opacity: 1;
+
+}
+
+/* End column */
+
+/* start individual*/
+
+.individual {
+    background: url(../images/bg-img-03.jpg) center center fixed;
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.individual .content {
+    position: absolute;
+    right: 5%;
+    top: 140px;
+}
+
+.individual .content h2 {
+    background: #FFF;
+    width: 349px;
+    height: 70px;
+    padding: 13px;
+    font-size: 28px;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
+.individual .content p {
+    width: 349px;
+    background: #FFF;
+    height: 170px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 100;
+    opacity: 0.8;
+    line-height: 1.3;
+
+}
+
+.individual .content button {
+    margin: 2% 23%;
+    width: 184px;
+    height: 52px;
+    font-size: 25px;
+    border: 0;
+    color: #FFF;
+    background: #ce3d3d;
+    opacity: 0.6;
+    transition: all .4s ease-in-out;
+}
+
+.individual .content button:hover {
+    opacity: 1;
+
+}
+
+/* end individual*/
+
+/* start Ipsum */
+
+.ipsum {
+    background: url("../images/bg-img-04.jpg") center center fixed;
+    background-size: cover;
+    min-height: 832px;
+    width: 100%;
+    display: flex;
+    overflow: hidden
+}
+
+.ipsum .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipsum .content div {
+    margin-left: 2%;
+    background: #FFF;
+    opacity: .8;
+    min-height: 250px;
+    padding: 15px 15px;
+    flex-basis: 294px;
+    margin: 20px 20px;
+}
+
+.ipsum .content div h2 {
+    font-size: 21px;
+    font-weight: 100;
+    color: #099909;
+    text-align: center
+}
+
+.ipsum div p {
+    font-size: 17px;
+    line-height: 1.4
+}
+
+
+/* end Ipsum*/
+
+/* start collection */
+
+.collection {
+    background: url(../images/bg-img-05.jpg) center center fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 830px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.collection .collect {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    width: 100%;
+    min-height: 655px;
+}
+
+.collection .collect > i {
+    font-size: 23px;
+    color: #FFF;
+    padding-left: 22px;
+    line-height: 6;
+}
+
+.collection .collect div {
+
+    margin-left: 15px;
+
+}
+
+.collection .collect div img {
+    opacity: 1;
+    transition: all .6s ease-in-out;
+    width: 200px
+}
+
+.collection .collect div img:hover {
+
+    opacity: .7
+}
+
+
+
+.collection .icons {
+
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.collection .icons i {
+    margin-left: 6px;
+}
+
+/* end collection */
+
+/*  start footer */
+
+footer {
+    background: url(../images/bg-img-06.jpg) center center fixed;
+    background-size: cover;
+    min-height: 916px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+footer .box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 820px;
+    width: 100%;
+}
+
+footer .box-wrapper .form {
+    width: 35%;
+    margin-left: 15%;
+}
+
+footer .box-wrapper .form h2 {
+    font-size: 30px;
+}
+
+footer .box-wrapper .form input {
+    display: block;
+    margin-bottom: 15px;
+    width: 330px;
+    padding: 6px;
+    opacity: .8;
+}
+
+footer .box-wrapper .form textarea {
+    width: 330px;
+    padding: 9px;
+    max-width: 330px;
+    height: 173px;
+    max-height: 330px;
+    opacity: .8;
+
+}
+
+footer .box-wrapper .form button {
+    width: 180px;
+    height: 56px;
+    font-size: 25px;
+    border: 0;
+    color: #FFF;
+    background: #ce3d3d;
+    opacity: 0.8;
+
+}
+
+footer .box-wrapper .form button:hover {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+footer .box-wrapper .content {
+    width: 33%;
+    margin-right: 17%;
+    color: #FFF;
+
+}
+
+footer .box-wrapper .content p:first-child {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+footer .box-wrapper .content h3 {
+    font-weight: 100;
+    font-size: 22px;
+    margin-bottom: 34px;
+}
+
+footer .box-wrapper .content span {
+    display: block;
+    width: 222px;
+    font-size: 18px;
+
+}
+
+footer > p {
+    font-size: 21px;
+    text-align: center
+}
+
+/*  End footer */
+
+/* start media query */
+
+/* mobile and tablets */
+
+@media (max-width:767px) {
+
+    /* start header */
+    header .head-content {
+        width: 185px;
+        margin: 0 50px 0;
+
+    }
+
+    header .head-content h2 {
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    header .head-content p {
+        text-align: left;
+        font-size: 16px;
+        width: 201px;
+        line-height: 1.5;
+    }
+
+    header .head-content button {
+        width: 160px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    /* end header */
+    /* start columns*/
+    .column {
+        flex-direction: column;
+    }
+    .column div {
+        flex-basis: 0;
+        min-height: auto;
+        text-align: center;
+        padding: 20px 20px;
+        margin: 25px;
+    }
+    .column div p {
+        font-size: 17px;
+    }
+    /* end columns*/
+    /* start indivdiual */
+    .individual .content {
+        right: 7%;
+        left: 7%;
+        text-align: center
+    }
+
+    .individual .content h2 {
+        font-size: 18px;
+        height: auto;
+        width: 230px;
+        font-weight: bold;
+        margin: auto;
+
+    }
+    .individual .content p {
+        height: auto;
+        font-size: 16px;
+        width: 230px;
+        padding: 13px;
+        margin: 20px auto;
+
+    }
+
+    /* end indivdiual */
+    /* start ipsum */
+    .ipsum .content {
+        flex-direction: column
+    }
+    .ipsum .content div {
+        min-height: auto;
+        flex-basis: auto;
+    }
+
+    /* end ipsum */
+    /* start collection*/
+    .collection .collect {
+        flex-wrap: wrap;
+        align-content: flex-end;
+    }
+
+    .collection .collect i {
+        display: none
+    }
+
+    .collection .collect div {
+        margin: 13px 0;
+    }
+
+    .collection .collect div img {
+        padding: 15px 25px;
+    }
+
+    /* end collection*/
+    /* start footer */
+    footer .box-wrapper {
+        flex-direction: column;
+    }
+    footer .box-wrapper .form {
+        width: 310px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center
+    }
+    footer .box-wrapper .form input,
+    footer .box-wrapper .form textarea {
+        width: 260px;
+        max-width: 260px;
+        margin: 12px auto 0;
+    }
+
+    footer .box-wrapper .content {
+        width: 310px;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    footer .box-wrapper .content p:first-child {
+        margin: auto;
+        font-size: 17px;
+        padding: 0 19px;
+        width: 222px;
+    }
+    footer .box-wrapper .content h3 {
+        width: 222px;
+        margin: 30px auto;
+        color: bisque;
+    }
+    footer .box-wrapper .content span {
+        text-align: left;
+        margin: auto;
+        line-height: 1.4;
+    }
+    footer > p {
+        width: 260px;
+        font-size: 16px;
+        margin: auto;
+        margin-bottom: 15px;
+        color: #5f9ea0;
+        line-height: 1.4;
+    }
+
+    /* end footer */
+}
+
+/* small screen*/
+
+/* start collection */
+
+@media (min-width:768px) and (max-width:991px) {
+    .collection .collect {
+        flex-wrap: wrap
+    }
+    .collection .collect i {
+        display: none
+    }
+    .collection .collect div {
+        margin: 13px 0;
+    }
+    .collection .collect div img {
+        padding: 15px;
+        width: 230px
+    }
+
+
+    /* end collection */
+    /* start footer */
+    footer .box-wrapper .content {
+        width: 40%;
+        margin-right: 5%;
+    }
+
+    footer .box-wrapper .form {
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    /* end footer */
+}
+
+/* end media query */
